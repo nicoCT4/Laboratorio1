@@ -1,19 +1,31 @@
-//Creacion del jugador
-public class Jugador{
-    String QuienEres;
-    int PuntosTotales;
-    int PuntosRonda;
+class Jugador {
+    private String nombre;
+    private int puntosTotales;
+    private int puntosRonda;
 
-    public Jugador(String QuienEres, int PuntosTotales, int PuntosRonda){
-        this.QuienEres = QuienEres;
-        this.PuntosTotales = PuntosTotales;
-        this.PuntosRonda = PuntosRonda;
+    public Jugador(String nombre, int puntosTotales, int puntosRonda) {
+        this.nombre = nombre;
+        this.puntosTotales = puntosTotales;
+        this.puntosRonda = puntosRonda;
     }
-    
-    public int getPuntosTotales(){
-        return this.PuntosTotales;
+
+    public String getNombre() {
+        return nombre;
     }
-    public int getPuntosRonda(){
-        return this.PuntosRonda;
+
+    public int getPuntosTotales() {
+        return puntosTotales;
+    }
+
+    public void setPuntosTotales(int puntosTotales) {
+        this.puntosTotales = puntosTotales;
+    }
+
+    public int getPuntosRonda() {
+        return puntosRonda;
+    }
+
+    public void setPuntosRonda(int puntosRonda) {
+        this.puntosRonda = puntosRonda;
     }
 }
