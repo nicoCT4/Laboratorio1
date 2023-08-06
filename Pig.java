@@ -9,7 +9,7 @@
 //Si obtiene más de 20 puntos en la ronda no tienes opcion de seguir jugando y le toca al jugador 2
 //Mientras el jugador este jugando y tirando, enseñar los puntos de la ronda
 //
-import java.util.Random;
+
 import java.util.Scanner;
 
 public class Pig {
@@ -63,4 +63,7 @@ public class Pig {
 
         scanner.close();
     }
-}
+    }
+
+
+
