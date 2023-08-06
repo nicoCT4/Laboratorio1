@@ -1,4 +1,4 @@
-//Creacion de dos Dados aleatorios
+//Creacion de dos Dados aleatorios utilizando la clase Random
 import java.util.Random;
 class Dado {
     private Random random;

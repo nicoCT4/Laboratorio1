@@ -1,3 +1,4 @@
+//Creacion de la clase Jugador
 class Jugador {
     private String nombre;
     private int puntosTotales;
